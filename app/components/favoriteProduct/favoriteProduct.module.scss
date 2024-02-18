@@ -1,0 +1,35 @@
+.favoriteProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productImage {
+  height: 48px;
+  width: 48px;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.category {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.07px;
+}
+
+.orderDetail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.75px;
+  text-transform: uppercase;
+  overflow-y: scroll;
+}
+
+.favoriteTitleCategory {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: auto;
+}

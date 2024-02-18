@@ -1,0 +1,15 @@
+.ctaCard {
+  max-width: 180px;
+  height: 168px;
+  background-color: var(--primary-white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}

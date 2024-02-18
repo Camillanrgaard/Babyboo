@@ -1,0 +1,21 @@
+.secondaryBtn {
+  color: #6a474c;
+  background-color: #cfccc5;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  width: fit-content;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  text-decoration: none;
+}
+
+.secondaryBtn:hover {
+  background-color: #b3b1aa;
+}

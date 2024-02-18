@@ -1,0 +1,40 @@
+.modalBody {
+  max-height: 420px;
+  overflow-y: scroll;
+}
+
+.btn {
+  color: var(--secondary-brown);
+  background-color: var(--primary-green);
+  padding: 5px 15px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: var(--green-hover);
+  color: var(--secondary-brown);
+}
+
+.modalBody::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modalBody::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.modalBody::-webkit-scrollbar-thumb {
+  background: #b1b1b1;
+  border-radius: 3px;
+}
+
+.modalBody::-webkit-scrollbar-thumb:hover {
+  background: #a6a6a6;
+}

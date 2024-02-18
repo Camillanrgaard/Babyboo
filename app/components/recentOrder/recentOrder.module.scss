@@ -1,0 +1,31 @@
+.recentOrder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date,
+.orderNumber,
+.link {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+}
+
+.date {
+  font-weight: 300;
+}
+
+.orderNumber {
+  font-weight: 600;
+}
+
+.link {
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: var(--brown-hover);
+}

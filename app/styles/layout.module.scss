@@ -1,0 +1,52 @@
+// NAVBAR
+.topbanner {
+  height: 31px;
+  color: var(--primary-brown);
+  background-color: var(--primary-green);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: var(--primary-brown) !important;
+}
+
+.dropdown {
+  background-color: var(--primary-brown);
+}
+
+.burgerMenu {
+  filter: invert(99%) sepia(45%) saturate(0%) hue-rotate(13deg) brightness(111%) contrast(100%);
+}
+
+.link {
+  color: var(--primary-white);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.link:hover {
+  color: var(--primary-green);
+}
+
+// FOOTER
+.container {
+  padding: 30px;
+}
+
+.ctaBg {
+  min-height: 330px;
+  background-color: var(--primary-green);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ctaCards {
+  padding: 12px;
+}

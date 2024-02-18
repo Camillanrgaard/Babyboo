@@ -1,0 +1,20 @@
+.primaryBtn {
+  color: var(--secondary-brown);
+  background-color: var(--primary-green);
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  width: fit-content;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  text-decoration: none;
+}
+
+.primaryBtn:hover {
+  background-color: var(--green-hover);
+}
